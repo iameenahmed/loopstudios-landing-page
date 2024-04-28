@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed left-0 right-0 top-0 z-20 flex items-center justify-between p-6 md:px-20 lg:px-[10.5rem] ${isScrolled && "bg-black/80 py-6 backdrop-blur-xl"}`}
+      className={`fixed left-0 right-0 top-0 z-20 flex items-center justify-between p-6 md:px-20 lg:px-[11.25vw] ${isScrolled && "bg-black/80 py-6 backdrop-blur-xl"}`}
     >
       <div className="z-20 flex w-full items-center justify-between md:w-auto">
         <div>

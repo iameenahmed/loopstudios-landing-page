@@ -15,7 +15,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="grid place-content-center gap-3 bg-black py-16 text-white lg:grid-cols-2 lg:grid-rows-2 lg:px-[10.25rem] lg:py-11">
+    <footer className="grid place-content-center gap-3 bg-black py-16 text-white lg:grid-cols-2 lg:grid-rows-2 lg:px-[11.25vw] lg:py-11">
       <div className="justify-self-center lg:justify-self-start">
         <img src={logo} alt="logo" />
       </div>

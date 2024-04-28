@@ -2,13 +2,13 @@ import creations from "../data/creations";
 
 const Creations = () => {
   return (
-    <div className="my-20 grid place-items-center px-6 md:mx-20 md:grid-cols-2 md:grid-rows-[auto_auto] lg:my-[11.5rem] lg:px-0 xl:mx-[10.5rem]">
+    <div className="my-20 grid place-items-center px-6 md:mx-20 md:grid-cols-2 md:grid-rows-[auto_auto] lg:my-[11.5rem] lg:px-0 xl:mx-[11.25vw]">
       <div className="md:place-self-start ">
-        <h3 className="font-primary text-[2rem] font-normal uppercase lg:text-5xl">
+        <h3 className="font-primary text-[2rem] font-normal uppercase text-primary lg:text-5xl">
           Our creations
         </h3>
       </div>
-      <div className="mt-[5.75rem] grid gap-8 md:col-span-2 md:grid-cols-2 lg:grid-cols-4">
+      <div className="mt-[5.25rem] grid gap-8 md:col-span-2 md:grid-cols-2 lg:grid-cols-4">
         {creations.map(({ id, title, desktop, mobile }) => (
           <figure
             key={id}
@@ -18,7 +18,7 @@ const Creations = () => {
               <source media="(min-width: 768px)" srcSet={desktop} />
               <img src={mobile} alt={title} />
             </picture>
-            <figcaption className="absolute bottom-0 left-0 right-1/2 p-5 font-primary text-xl uppercase leading-tight text-white md:right-0 md:text-[2rem] lg:px-10">
+            <figcaption className="absolute bottom-0 left-0 right-1/2 p-5 font-primary text-xl uppercase leading-tight text-white md:right-0 md:text-[2rem] lg:px-[2.77vw]">
               {title}
             </figcaption>
           </figure>

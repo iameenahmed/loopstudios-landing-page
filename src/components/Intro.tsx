@@ -3,7 +3,7 @@ import interactiveDesktop from "../assets/desktop/image-interactive.jpg";
 
 const Intro = () => {
   return (
-    <div className="my-20 flex flex-col px-6 text-center md:mx-20 lg:my-40 lg:flex-row lg:items-end lg:px-0 lg:text-start xl:mx-[10.25rem]">
+    <div className="my-20 flex flex-col px-6 text-center md:mx-20 lg:my-40 lg:flex-row lg:items-end lg:px-0 lg:text-start xl:mx-[11.25vw]">
       <picture className="mx-auto lg:basis-[65%] xl:basis-[730px]">
         <source media="(min-width: 1024px)" srcSet={interactiveDesktop} />
         <img src={interactiveMobile} alt="a man wearing a VR headset" />
