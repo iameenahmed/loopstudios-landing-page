@@ -6,9 +6,9 @@ import Intro from "./components/Intro";
 
 const App = () => {
   return (
-    <div className="w-full font-secondary text-[15px] text-secondary">
+    <div className="w-full font-secondary text-[0.9375rem] text-secondary">
       <Header />
-      <main className="">
+      <main>
         <Hero />
         <Intro />
         <Creations />

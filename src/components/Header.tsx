@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 const Header = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const [isScrolled, setIsScrolled] = useState<boolean>(false);
+
   const navItems = ["About", "Careers", "Events", "Products", "Support"];
 
   const handleScroll = () => {
@@ -27,9 +28,9 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed left-0 right-0 top-0 z-10 flex items-center justify-between p-6 md:px-20 lg:px-[10.5rem] ${isScrolled && "bg-black/80 py-6 backdrop-blur-xl"}`}
+      className={`fixed left-0 right-0 top-0 z-20 flex items-center justify-between p-6 md:px-20 lg:px-[10.5rem] ${isScrolled && "bg-black/80 py-6 backdrop-blur-xl"}`}
     >
-      <div className="z-20 flex w-full items-center justify-between py-2 md:w-auto">
+      <div className="z-20 flex w-full items-center justify-between md:w-auto">
         <div>
           <img src={logo} alt="logo" />
         </div>
@@ -64,9 +65,9 @@ const Header = () => {
         )}
         {/* Desktop Navigation */}
         <div
-          className={`hidden text-white md:inline-block ${isScrolled ? "py-0" : "py-4"}`}
+          className={`hidden text-white md:inline-block ${isScrolled ? "my-0" : "my-11"}`}
         >
-          <ul className="flex gap-4">
+          <ul className="flex gap-8">
             {navItems.map((item, index) => (
               <li key={index} className="group relative">
                 <a href="#">{item}</a>
