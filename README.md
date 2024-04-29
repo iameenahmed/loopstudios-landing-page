@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontendmentor.io/solutions/loopstudios-landing-page](https://www.frontendmentor.io/solutions/loopstudios-landing-page)
+- Solution URL: [frontendmentor.io/solutions/loopstudios-landing-page](https://www.frontendmentor.io/solutions/loopstudios-landing-page-using-reactjs-BEru83Q72p)
 
 ## My process
 
